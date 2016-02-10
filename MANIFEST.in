@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include auto_multitenancy *.css
+recursive-include auto_multitenancy *.csv
+recursive-include auto_multitenancy *.html
+recursive-include auto_multitenancy *.ico
+recursive-include auto_multitenancy *.js
+recursive-include auto_multitenancy *.json
+recursive-include auto_multitenancy *.md
+recursive-include auto_multitenancy *.png
+recursive-include auto_multitenancy *.py
+recursive-include auto_multitenancy *.svg
+recursive-include auto_multitenancy *.txt
+recursive-exclude auto_multitenancy *.pyc
